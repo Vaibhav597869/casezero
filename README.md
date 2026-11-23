@@ -1,11 +1,11 @@
 # CASEZERO
 
-A mobile-first, static detective mystery game. Deploy the repository directly to Netlify or any static host: `index.html`, `styles.css`, and `app.js` are all that is needed. No build step or dependencies.
+A mobile-first, static detective mystery game. Deploy directly to Netlify or another static host; no build step or runtime dependencies are required.
+
+## Local preview
+
+Serve the repository root as the site root (or open `index.html`). The document links to `./styles.css` and `./app.js`; all visual artwork is stored under `./assets/` as local SVG files, so the complete visual design does not depend on third-party image servers or font CDNs.
 
 ## Play
 
-Open `index.html` in a browser. Start Investigation opens the playable Case 001: inspect three evidence items, compare suspect statements, and submit a deduction. Solved-case progress and accessibility preferences are saved in local storage. Later case files are presented as locked previews.
-
-## Images
-
-The cinematic scene photographs load from Unsplash image CDN URLs; fingerprint texture and iconography are stored locally in `assets/fingerprint.svg`. An internet connection is needed to load the remote photographs and web fonts.
+Start Investigation opens the playable Case 001. Inspect three evidence items, compare suspect statements, and submit a deduction. Solved-case progress and accessibility preferences are saved in local storage. Later case files are presented as locked previews.
